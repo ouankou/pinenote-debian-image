@@ -1,7 +1,7 @@
 {{- $architecture := or .architecture "arm64" -}}
 {{- $prevtargz := .prevtargz }}
 {{- $targz := .targz }}
-{{- $hostname := or .hostname "pinenote" -}}
+{{- $hostname := or .hostname "collei" -}}
 
 architecture: {{ $architecture }}
 
